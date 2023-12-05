@@ -1,0 +1,264 @@
+
+.subdiv1{
+  height:100vh;
+  width:60%;
+  background-color: white;
+  margin:auto;
+  margin-right: 30%;
+
+  
+  
+}
+
+
+.sub1{
+  height:285px;
+  width:100%;
+  background-color:white;
+}
+.image1{
+  height:60px;
+  width:60px;
+
+}
+.logo{
+  height: 330px;
+  width:345px;
+  position: relative;
+  bottom: 90px;
+  left:80px;
+}
+.sp{
+  position: relative;
+  bottom: 210px;
+  left: 110px;
+  font-size: 38px;
+  font-weight: 500;
+  
+}
+p{
+  font-size: 17px;
+  font-weight: 400;
+  position: relative;
+  bottom: 200px;
+  left:85px;
+  
+  
+}
+.hr1{
+  position: relative;
+  bottom: 200px;
+  left:240px;
+}
+.hr1::before{
+  
+    content:" ";
+    display: block;
+    height: 2px;
+    width: 180px;
+    position: absolute;
+    top: 50%;
+    right:25px;
+    background: rgb(21, 197, 245);
+  }
+  .hr1::after{
+  
+    content:" ";
+    display: block;
+    height: 2px;
+    width: 180px;
+    position: absolute;
+    top: 50%;
+    left:30px;
+    background: rgb(21, 197, 245);
+  }
+  .btn1{
+    height: 30px;
+    width:180px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(21, 197, 245);
+    color:white;
+    position: relative;
+    bottom: 200px;
+    left:50px;
+  }
+  .btn2{
+    height: 30px;
+    width:180px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(21, 197, 245);
+    color:white;
+    position: relative;
+    bottom: 200px;
+    left:90px;
+  }
+form{
+  height: 280px;
+  width:270px;
+  background-color:rgb(21, 197, 245) ;
+  margin-left: 110px;
+}
+.i1{
+  height: 35px;
+  width:220px;
+  background: transparent;
+  border:2px solid rgb(74, 240, 246);
+  border-radius: 5px;
+  margin-top: 14px;
+  margin-left: 25px;
+}
+::placeholder{
+  color:rgb(166, 252, 255);
+  font-weight: 500;
+  padding-left: 40px;
+  font-size: 17px;
+}
+#ic1{
+  position: relative;
+  left:48px;
+  font-size: 22px;
+  color: white;
+}
+h4{
+  font-size: 22px;
+  color:rgb(194, 251, 254);
+  margin-left: 100px;
+  padding-top:20px ;
+}
+.i2{
+  height: 35px;
+  width:220px;
+  background: transparent;
+  border:2px solid rgb(74, 240, 246);
+  border-radius: 5px;
+  margin-top: 14px;
+  margin-left: 25px;
+}
+#ic2{
+  position: relative;
+  left:48px;
+  font-size: 22px;
+  color: white;
+}
+.l1{
+  color:rgb(166, 252, 255);
+  font-size: 13px;
+  position: relative;
+  bottom:3px;
+}
+.l1:hover{
+  color:white;
+}
+.i3{
+  background-color:rgb(166, 252, 255);
+  height:15px;
+  width:15px;
+  margin-top: 12px;
+  margin-left: 28px;
+}
+.a1{
+  text-decoration: none;
+  color:rgb(166, 252, 255);
+  font-size: 13px;
+  position: relative;
+  left:145px;
+  bottom: 34px;
+}
+a:hover{
+  color:white;
+}
+.btn3{
+  height: 35px;
+  width:220px;
+  color:white;
+  background: transparent;
+  border: 2px solid rgb(74, 240, 246);
+  position: relative;
+  bottom:15px;
+  left:29px;
+  border-radius: 5px;
+}
+.a2{
+  text-decoration: none;
+  color:rgb(166, 252, 255);
+  font-size: 13px;
+  position: relative;
+  left:145px;
+  bottom: 18px;
+}
+@media screen and(min-width:768){
+  .subdiv1{
+    height: 400px;
+  }
+  
+}
+
+/* ################################ */
+.leftside, .rightside{
+  height: 50vh;
+  width: 100%;
+  
+}
+
+@media screen and (min-width:600px){
+  .leftside, .rightside{
+    height: 100vh;
+  }
+  .leftside{
+    
+    margin-bottom: 120px;
+  }
+}
+@media screen and (min-width:768px){
+  .leftside, .rightside{
+    height: 100vh;
+  }
+  
+}
+.leftside{
+  background-color: rgb(255, 255, 255);
+}
+
+.rightside{
+  background-color: rgb(255, 255, 255);
+  margin-top: 0px;
+  
+}
+
+
+
+@keyframes slidy {
+  0%{left: 0%;}
+  20%{left: 0%;}
+  25%{left: -100%;}
+  45%{left: -100%;}
+  50%{left: -200%;}
+  70%{left: -200%;}
+  75%{left: -300%;}
+  95%{left: -300%;}
+  100%{left: -400%;}
+}
+
+.slider{
+  overflow: hidden;
+}
+
+.slider figure img{
+  width: 20%;
+  float: left;
+  height: 100vh;
+}
+
+.slider figure{
+  position: relative;
+  width: 500%;
+  margin: 0;
+  left: 0;
+  text-align: left;
+  font-size: 0;
+  animation: 25s slidy infinite;
+}
+
+/* ################################ */
